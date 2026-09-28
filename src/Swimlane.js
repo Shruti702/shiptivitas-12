@@ -9,7 +9,7 @@ export default class Swimlane extends React.Component {
         <Card
           key={client.id}
           id={client.id}
-          name={client.name}
+          name={client.name}    
           description={client.description}
           status={client.status}
         />
@@ -23,5 +23,4 @@ export default class Swimlane extends React.Component {
         </div>
       </div>);
   }
-
 }
